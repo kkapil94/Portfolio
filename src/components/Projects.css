@@ -1,0 +1,367 @@
+.project-container {
+    min-height: 100vh;
+    padding-top: 120px;
+    z-index: 1;
+    background-color: #151718;
+}
+
+.project-container h1{
+    color: #fff;   
+    z-index: 1;
+    width: fit-content;
+    margin: auto;
+    font-size: 35px;
+    border-bottom: #86e1ff solid;
+    /* border-top: #ffffff solid; */
+    border-width: 5px;
+    border-radius: 10px;
+}
+
+.window {
+    margin-top: 20px;
+    width: 25vw;
+    text-align: center;
+    margin: auto;
+    /* background-color: #fff; */
+}
+
+.tab {
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 5px;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+}
+
+.tab .white {
+    color: white;
+}
+
+.toggle {
+    padding: 8px 8px;
+    min-width: 10vw;
+    font-size: 1.5rem;
+    font-family: 'Futura T';
+    font-weight: 700;
+    border: 0;
+    /* background-color: #fff; */
+    /* border-radius: 20px; */
+}
+
+
+.tab button {
+    background-color: transparent;
+}
+
+.project-container .window .tab .blue {
+    position: absolute;
+  height: 100%;
+  width: 50%;
+  z-index: -1;
+  bottom: 0;
+  /* z-index: 0; */
+  border-radius: 20px;
+  background-color: #3B82F6;
+  color: #151718;
+  transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.all {
+    left: 0;
+    margin-right: 10px;
+}
+
+.collab {
+    left: 45%;
+    width: 55%!important;
+    /* color: #fff; */
+}
+
+.card-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    /* grid-template-columns: auto auto auto; */
+    grid-gap: 50px;
+    padding-inline: 15vh;
+    margin-block: 50px;
+    justify-content: space-evenly;
+    /* margin-bottom: 20px; */
+}
+
+.card-box {
+    border-radius: 16px;
+    background-color: #e6ecfb;
+    width: 350px;
+    /* height: 380px; */
+    text-align: left;
+    box-shadow: 8px 8px 0 0 #3b82f6;
+}
+
+.card-box .card-skeleton {
+    padding: 10px;
+}
+
+.card-box img {
+    height: 180px;
+    width: 100%;
+    border-radius: 16px;
+    /* border: 4px solid #3B82F6; */
+    /* box-shadow: 4px 4px 0 0 #3b82f6; */
+}
+
+.card-box .content {
+    padding: 14px;
+}
+
+.card-box h2 {
+    margin: 0;
+    margin-top: 6px;
+}
+
+.card-box p {
+    margin-top: 10px;
+}
+
+.card-box button {
+    width: 100%;
+    background-color: #3B82F6;
+    border-radius: 6px;
+    padding: 12px 16px;
+    font-size: 20px;
+    color: #fff;
+    border: 0;
+    font-weight: 600;
+}
+
+.card-wrap .card {
+    border-radius: 6px;
+    position: relative;
+    background-color: #fff;
+    font-family: 'Work Sans';
+    font-weight: 400;
+    width: 24vw;
+    padding-bottom: 15px;
+    text-align: center;
+    margin-bottom: 5vh;
+    box-shadow: 6px 6px 0 0 #33ccff;
+}
+
+.card:hover {
+    transition: 0.8s all;
+    
+}
+
+.card-wrap .first button{
+    /* padding-bottom: 15px; */
+    margin-top: 20px !important;
+    
+    bottom: 5vh;
+}
+
+.card-wrap .btn-wrap .btn-txt {
+    color: #33ccff;
+    text-align: center;
+    font-family: 'Work Sans';
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.card-wrap .card h3{
+    font-size: 2.3rem;
+    margin-bottom: 0;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-weight: 200;
+    font-family: 'Futura T';
+    color: 000;
+    /* text-align: left; */
+}
+
+.card-wrap .card p {
+    margin-top: 20px;
+    font-size: 14px;
+    color: grey;
+
+}
+
+.card-wrap .card .won {
+    text-align: right;
+    color: #33ccff;
+}
+
+.card-wrap .card button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    color: #33ccff;
+    background-color: #fff;
+    border: 1px solid #33ccff;
+    border-radius: 3px;
+    box-shadow: 6px 6px 0 0 #33ccff;
+}
+
+.card button:hover {
+    box-shadow: none;
+    transition: 0.8s all;
+}
+
+.card-wrap .card .btn-wrap {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-wrap .card img {
+    width: 100%;
+    height: 150px;
+    border-radius: 5px 5px 0 0;
+    /* border-radius: 7px 7px 0px 0px; */
+    object-fit: fill;
+    /* border-bottom: 3px solid #2f3436; */
+    /* box-shadow: 1 1 1#2f3436; */
+    box-shadow: 0 4px 2px -2px gray;
+}
+
+
+.card .body {
+    padding: 5px 20px;
+}
+
+
+.card .card-content {
+    position: absolute;
+    left:-2vw;
+    bottom: 0;
+    width: 100%;
+    padding: 25px;
+    /* background-color: rgb(151, 151, 151); */
+    border-top-left-radius: 20px;
+    background-color: #2f3436;
+    transform: translateY(70px);
+    transition: transform .25s;
+    align-items: center;
+    text-align: center;
+}
+
+.card .card-content::before {
+    content: '';
+    position: absolute;
+    top: -47px;
+    right: -40px;
+    width: 100px;
+    height: 100px;
+    transform: rotate(-175deg);
+    border-radius: 50%;
+    box-shadow: inset 48px 48px #2f3436;
+}
+
+.card .card-title {
+    color: #fff;
+    line-height: 15px;
+    font-size: 1.5rem;
+    font-family: Inter;
+}
+
+.card .card-subtitle {
+    display: block;
+    padding: 5px;
+    font-size: 20px;
+    margin-bottom: 30px;
+    /* background-color: #27aac8; */
+    color: #fff;
+    /* background-color: #000;
+    border: #27aac8 solid; */
+    border-width: 2px;
+    width: fit-content;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.card .card-description {
+    font-size: 14px;
+    margin-left: 2.5vw;
+    color: #fff;
+    width: 80%;
+    padding: 0;
+    opacity: 0;
+    transition: opacity .5s;
+}
+
+.card:hover .card-content {
+    transform: translateY(0);
+}
+
+.card:hover .card-description {
+    opacity: 1;
+    transition-delay: .25s;
+}
+
+
+@media screen and (max-width: 700px){
+    .card-wrap {
+        /* grid-template-columns: 1fr; */
+        padding-inline: 40px;
+    }
+
+    .window {
+        width: 62vw;
+        font-size: 10px;
+    }
+
+    .toggle {
+        width: 50%;
+    }
+    .tab button{
+        font-size: 1rem;
+    }
+    .project-container .window .tab .blue {
+        width: 28vw;
+    }
+
+    .all {
+        width: 50%!important;
+    }
+
+    .collab {
+        width: 40vw!important;
+        left: 25vw;
+    }
+    .tab .white {
+        color: white;
+    }
+
+    .card-wrap .card {
+        width: 80vw;
+        /* height: 45vh; */
+        margin: 20px auto;
+        height: fit-content;
+    }
+
+    .card-wrap .card button {
+        padding: 10px 40px;
+        margin-block: 10px;
+    }
+
+    .card-wrap .card .btn-wrap {
+        /* justify-content: space-between; */
+        display: block;
+    }
+
+    .card .card-content {
+        left: -5vw;
+    }
+
+    .card-wrap .card img {
+        height: 63%;
+    }
+
+    .card-wrap .first img{
+        height: 65%;
+    }
+
+    .card .card-content {
+        padding: 20px;
+        height: 20vh;
+    }
+}

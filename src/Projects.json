@@ -1,0 +1,35 @@
+[
+    {
+        "id": 1,
+        "src": "./quiz.png",
+        "name":"Quiz app",
+        "Description": "It is a Simple Quiz app, made with React and Material Ui",
+        "class": "card",
+        "won": "",
+        "href": "https://quiz-app-murex-one.vercel.app/"
+    },
+    {
+        "id": 2,
+        "src": "./disney_hero.webp",
+        "name":"Disney+ Clone",
+        "Description": "A replica of Disney, made with React, Styled Components and Firebase",
+        "class": "card",
+        "href": "https://disney-plus-clone-six-pi.vercel.app/"
+    },
+    {
+        "id": 3,
+        "src": "./discord_hero.webp",
+        "name": "Discord-UI Clone",
+        "Description": "A replica of UI of DIscord, made with React, Raw CSS",
+        "class": "card",
+        "href": "https://discord-vert.vercel.app/"
+    },
+    {
+        "id": 4,
+        "src": "./ytClone.png",
+        "name": "Yt Clone",
+        "Description": "A replica of UI of Youtube, made with React, Raw CSS",
+        "class": "card",
+        "href": "https://discord-vert.vercel.app/"
+    }
+]

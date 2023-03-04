@@ -1,0 +1,80 @@
+.nav-wrap {
+    position: absolute;
+    list-style-type: none;
+    /* background-color: #272727; */
+    background-color: transparent;
+    /* right: 7%; */
+    padding-top: 2%;
+    z-index: 1;
+   /* left: 31vw; */
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* background-color: #ffffff; */
+}
+
+.nav-wrap nav {
+    display: flex;
+    justify-content: space-around;
+    /* margin-right: -2%; */
+    width: 100vw;
+}
+
+.nav-wrap li{
+    /* margin-right: 20%; */
+    /* color: #383838; */
+    font-family: 'Futura T';
+    font-size: 30px;
+    padding: 5px;
+    /* margin: 5px; */
+    margin-bottom: 10px;
+    border-bottom: transparent 2px solid;
+    border-radius: 6px;
+}
+
+/* .nav-wrap li:hover {
+    border-bottom: #3B82f6 2px solid;
+    color: #3B82F6;
+} */
+
+.nav-wrap li[aria-label='page'] {
+    border-bottom: #3B82f6 2px solid;   
+    border-bottom: #3B82f6 2px solid;
+    /* border-top: #ffffff solid; */
+    border-width: 4px;
+    border-radius: 6px;
+}
+
+
+
+.nav-wrap a {
+    text-decoration: none;
+    /* color: #555454; */
+    /* color: cyan; */
+    color: white;
+}
+
+.nav-wrap a:hover {
+    transition: 0.2s ease-in-out;
+    /* color: #000; */
+    color: #fff;
+    /* border-bottom: #fff 2px solid; */
+}
+
+@media only screen and (max-width: 700px) {
+    .nav-wrap{
+        /* right: 7%; */
+    }
+    .nav-wrap li{
+        font-size: 20px;
+    }
+}
+
+
+@font-face {
+    font-family: 'Futura T';
+    src: local('Futura T'), url(../../public/Futura\ T\ Medium.ttf) format('truetype');
+}
