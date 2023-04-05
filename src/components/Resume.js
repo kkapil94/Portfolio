@@ -22,7 +22,7 @@ function Resume() {
       <div className={pageLoaded?'pdf-container':''}>
 
         <Document
-          file="/kapilResume.pdf"
+          file="/kapil_khatri_resume.pdf"
           onLoadSuccess={onDocumentLoadSuccess}
           onLoadError={console.error}
           loading={<h1 style={{color: 'white'}}>loading</h1>}

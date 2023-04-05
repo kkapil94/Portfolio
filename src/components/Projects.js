@@ -5,8 +5,6 @@ import { motion } from "framer-motion";
 
 function Projects() {
   const [filter, setFilter] = useState("all");
-  const [active, setActive] = useState("all");
-  const [color, setColor] = useState(true);
 
   return (
     <div className="project-container">
@@ -55,8 +53,8 @@ function Projects() {
                         <div className="content">
                           <h2>{e.name}</h2>
                           <p>{e.Description}</p>
-                          <a href={e.href}>
-                            <button>Watch Live</button>
+                          <a href={e.href} target="_blank">
+                            <button className="card-button">Watch Live</button>
                           </a>
                         </div>
                       </div>
@@ -77,7 +75,7 @@ function Projects() {
                       <div className="content">
                         <h2>{e.name}</h2>
                         <p>{e.Description}</p>
-                        <a href={e.href}>
+                        <a href={e.href} target="_blank" rel="noreferrer">
                           <button>Watch Live</button>
                         </a>
                       </div>
